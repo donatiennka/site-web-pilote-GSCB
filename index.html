@@ -15,68 +15,77 @@
             integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         
+        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+        
         <!-- Font Awesome (jeu d'icônes) -->
         <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <header>
-            <nav class="nav navbar-expand-lg fixed-top navbar-light bg-light">
-                <div class="container-fluid d-flex flex-column">
-                    <!-- Première navigation -->
-                    <div class="bg-success p-2 text-dark bg-opacity-25">
-                        <div class="container">
-                            <div class="collapse navbar-collapse align-items-center">
-                                <ul class="navbar-nav text-uppercase fw-bold text-white">
-                                    <li class="nav-item mx-3">
-                                        <a href="#" class="nav-link">GS Consulting and Building</a>
-                                    </li>
-                                    <li class="nav-item mx-3">
-                                        <p class="nav-link text-center"><span class="fw-lighter">call us today:</span> +237 671 14 88 55</p>
-                                    </li>
-                                    <li class="nav-item mx-3" data-bs-toggle="tooltip" title="Only for employees">
-                                        <a href="#" class="nav-link float-end">Connexion</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> 
+        <section class="header header-fixed-xl">
+            <div class="header-top-line bg-success p-2 text-dark bg-opacity-25" style="min-height: 50px;">
+                <div class="container d-flex flex-column">
+                    <div class="row">
+                        <!-- barre de navigation supérieur -->
+                        <nav class="nav navbar-expand-lg fixed-top navbar-light navbar-short w-100">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item mx-5 px-5 position-absolute top-0 start-0">
+                                    <a href="index.html" class="nav-link text-white">GS Consulting and Building</a>
+                                </li>
+                                <li class="nav-item mx-3 position-absolute top-0 start-50">
+                                    <p class="nav-link text-center text-white">
+                                        <span class="text-white-50">call us today:</span> +237 671 14 88 55</p>
+                                </li>
+                                <li class="nav-item mx-5 px-5 position-absolute top-0 end-0" data-bs-toggle="tooltip" title="Only for employees">
+                                    <a href="#" class="nav-link float-end text-white">Connexion</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <!-- Navigation principale du site -->
-                    <div class="bg-lighter p-2 text-dark bg-opacity-25">
-                        <div class="container d-flex flex-row align-right">
+                </div>
+            </div>
+            <!-- barre de navigation principale -->
+            <div class="header-main bg-white">
+                <div class="container">
+                    <div class="row">
+                        <nav id="header-navbar" class="navbar navbar-expand-lg navbar-light w-100">
                             <!-- Logo sur la navbar -->
-                            <a href="#" class="navbar-brand">
+                            <a href="#" class="navbar-brand position-absolute top-0 start-0 ">
                                 <img src="images/logo.jpg" class="img-fluid" alt="Logo" style="width: 80px;">
                             </a>
+                            <!-- Trigger button -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
                             <!-- liens de navigation -->
-                            <div class="collapse navbar-collapse align-items-center">
-                                <div class="align-items-right">
-                                    <ul class="navbar-nav text-uppercase fw-bold ">
+                            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                                <div class="position-absolute top-0 end-0">
+                                    <ul class="navbar-nav ml-auto text-uppercase ">
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">about</a>
+                                            <a href="#about" class="nav-link">about</a>
                                         </li>
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">services</a>
+                                            <a href="#services" class="nav-link">services</a>
                                         </li>
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">why choose us</a>
+                                            <a href="#why-choose-us" class="nav-link">why choose us</a>
                                         </li>
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">our work</a>
+                                            <a href="#our-work" class="nav-link">our work</a>
                                         </li>
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">testimonials</a>
+                                            <a href="#testimonials" class="nav-link">testimonials</a>
                                         </li>
                                         <li class="nav-item mx-3">
-                                            <a href="#" class="nav-link">contacts</a>
+                                            <a href="#contact" class="nav-link">contacts</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </nav>
                     </div>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </section>
 
         <!-- Script JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
