@@ -8,3 +8,39 @@
     line-height: 1.5; 
     
 }
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    position: relative;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: #000;
+}
+
+.navbar-nav .nav-link
+{
+    transition: all .2s ease-in-out;
+    outline: 0;
+}
+
+.nav-link
+{
+    display: block;
+}
+
+.ml-auto
+{
+    margin-left: auto;
+}
+
+.bg-primary
+{
+    background-color: #3db36b !important;
+    
+}
