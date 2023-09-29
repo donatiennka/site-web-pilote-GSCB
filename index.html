@@ -14,76 +14,100 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
             integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
             crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
         
         <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
         
         <!-- Font Awesome (jeu d'icônes) -->
         <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     </head>
-        <section class="header header-fixed-xl">
-            <div class="header-top-line bg-success p-2 text-dark bg-opacity-25" style="min-height: 50px;">
-                <div class="container d-flex flex-column">
+    <body class="" data-spy="scroll" data-target="#header-navbar" data-offset="140">
+        <section class="header header-fixed-xl fixed-top">
+            <div class="header-top-line bg-success bg-opacity-25">
+                <div class="container">
                     <div class="row">
-                        <!-- barre de navigation supérieur -->
-                        <nav class="nav navbar-expand-lg fixed-top navbar-light navbar-short w-100">
-                            <ul class="navbar-nav text-uppercase">
-                                <li class="nav-item mx-5 px-5 position-absolute top-0 start-0">
-                                    <a href="index.html" class="nav-link text-white">GS Consulting and Building</a>
+                        <!--barre de navigation supérieur-->
+                        <nav class="navbar navbar-expand-md navbar-light navbar-short justify-content-between w-100">
+                            <ul class="nav navbar-nav text-uppercase">
+                                <li class="nav-item ">
+                                    <a href="index.html" class="nav-link text-white">
+                                        <span>GS Consulting and Building</span>
+                                    </a>
                                 </li>
-                                <li class="nav-item mx-3 position-absolute top-0 start-50">
-                                    <p class="nav-link text-center text-white">
-                                        <span class="text-white-50">call us today:</span> +237 671 14 88 55</p>
-                                </li>
-                                <li class="nav-item mx-5 px-5 position-absolute top-0 end-0" data-bs-toggle="tooltip" title="Only for employees">
-                                    <a href="#" class="nav-link float-end text-white">Connexion</a>
+                                <li class="nav-item " data-bs-toggle="tooltip" data-bs-placement="right" title="Only for Employees">
+                                    <a href="#" class="nav-link text-white">
+                                        <span>Connexion</span>
+                                    </a>
                                 </li>
                             </ul>
+                            <span class="navbar-text text-uppercase d-fex align-items-center">
+                                    <span class="text-white-50">call us today:</span> 
+                                    <span class="text-white">+237 671 14 88 55</span>
+                            </span>
                         </nav>
                     </div>
                 </div>
             </div>
             <!-- barre de navigation principale -->
-            <div class="header-main bg-white">
+            <div class="header-main bg-white" style="min-height: 100px;">
                 <div class="container">
                     <div class="row">
                         <nav id="header-navbar" class="navbar navbar-expand-lg navbar-light w-100">
                             <!-- Logo sur la navbar -->
-                            <a href="#" class="navbar-brand position-absolute top-0 start-0 ">
+                            <a href="index.html" class="navbar-brand">
                                 <img src="images/logo.jpg" class="img-fluid" alt="Logo" style="width: 80px;">
                             </a>
-                            <!-- Trigger button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- Triggered button -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <!-- liens de navigation -->
-                            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                                <div class="position-absolute top-0 end-0">
-                                    <ul class="navbar-nav ml-auto text-uppercase ">
-                                        <li class="nav-item mx-3">
-                                            <a href="#about" class="nav-link">about</a>
+                            <div  class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="nav navbar-nav principal-navbar text-uppercase">
+                                        <li class="nav-item">
+                                            <a href="#about" class="nav-link active">
+                                                about
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-3">
-                                            <a href="#services" class="nav-link">services</a>
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">
+                                                services
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-3">
-                                            <a href="#why-choose-us" class="nav-link">why choose us</a>
+                                        <li class="nav-item">
+                                            <a href="#why-choose-us" class="nav-link">
+                                                why choose us
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-3">
-                                            <a href="#our-work" class="nav-link">our work</a>
+                                        <li class="nav-item">
+                                            <a href="#our-work" class="nav-link">
+                                                our work
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-3">
-                                            <a href="#testimonials" class="nav-link">testimonials</a>
+                                        <li class="nav-item">
+                                            <a href="#testimonials" class="nav-link">
+                                                testimonials
+                                            </a>
                                         </li>
-                                        <li class="nav-item mx-3">
-                                            <a href="#contact" class="nav-link">contacts</a>
+                                        <li class="nav-item">
+                                            <a href="#contact" class="nav-link">
+                                                contacts
+                                            </a>
                                         </li>
                                     </ul>
-                                </div>
+                                
                             </div>
                         </nav>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid d-flex align-items-center m-0" 
+                style="width: 100%; height: 735px; background-attachment: fixed;
+                background-image: url(images/duplexbyrene.jpg); background-size: 100%; background-repeat: no-repeat;
+                background-position: cover; overflow: hidden;">
             </div>
         </section>
 
