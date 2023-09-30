@@ -1,3 +1,4 @@
+/** Header : Zone de navagation **/
 .navbar-short, #navbarNav
 {
 
@@ -41,6 +42,281 @@
 
 .bg-primary
 {
-    background-color: #3db36b !important;
+    background-color: #3db36b !important; 
+}
+
+
+
+
+/** Section de la partie centrale (corps) **/
+
+.font-family-secondary
+{
+
+    font-family: Arimo,sans-serif;
+    font-weight: 700;
+    letter-spacing: .125rem;
+    font-size: 0.75rem;
+    line-height: 1.5; 
     
 }
+
+/** la Balise body **/
+/**
+body
+{
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #212529;
+    text-align: left;
+}
+
+
+/** La balise a **/
+/**
+a
+{
+    text-decoration: none;
+}
+
+
+/** Les classes btn **/
+
+.btn-lg
+{
+    padding: 1.25rem 2.65rem;
+    font-size: .75rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+.btn-primary
+{
+    color: #fff;
+    
+    background-color: #3db36b;
+    border-color: #3db36b;
+}
+
+.btn{
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Arimo, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid transparent;
+    
+}
+
+
+/** la row **/
+/**
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+/** la classe card **/
+/**
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    z-index: 0;
+}
+
+
+/** Align-items **/
+/**
+.align-items-center{
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+
+/** Les margins personnalisées **/
+/**
+.mb-0, .my-0
+{
+    margin-bottom: 0 !important;
+}
+
+.mb-5, .my-5
+{
+    margin-bottom: .75 !important;
+}
+
+.mt-5, .my-5
+{
+    margin-top: .75 !important;
+}
+
+.mt-7, .my-7
+{
+    margin-top: 1rem !important;
+}
+
+.mb-10, .my-10
+{
+    margin-bottom: 1.375 !important;
+}
+
+
+/** Les paddings personnalisés **/
+/**
+@media (min-width: 992px){
+    .pb-lg-25, .py-lg-25
+    {
+        
+        padding-bottom: 6.25rem !important;
+        
+    }
+}
+
+@media (min-width: 992px){
+    .pt-lg-25, .py-lg-25
+    {
+        
+        padding-top: 6.25rem !important;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .pb-md-23, .py-md-23
+    {
+        
+        padding-bottom: 5rem !important;
+        
+    }
+}
+
+@media (min-width: 768px){
+    .pt-md-23, .py-md-23
+    {
+        
+        padding-top: 5rem !important;
+        
+    }
+}
+
+.pb-14, .py-14
+{
+    padding-bottom: 1.875rem !important;
+}
+
+.pt-14, .py-14
+{
+    padding-top: 1.875rem !important;
+}
+
+
+/** Les fs personnalisés **/
+
+@media (min-width: 992px){
+    .fs-lg-11
+    {
+        
+        font-size: 4.375rem !important;
+        
+    }
+}
+
+.fs-1{
+    font-size: 0.75rem !important;
+}
+
+.fs-5
+{
+    font-size: 1.125rem !important;
+}
+
+.fs-10
+{
+    font-size: 3.125rem !important;
+}
+
+.card-title{
+    font-family: Arimo, Calibri, sans-serif;
+    font-size: 4.375rem;
+    color: white;
+}
+
+.card-text{
+    font-family: Arimo, Calibri, sans-serif;
+    font-size: 1.25rem;
+    color: white;
+}
+
+/** Les fw personnalisés **/
+/**
+.font-weight-bold{
+    font-weight: 700 !important;
+}
+
+
+/** Les lh personnalisés **/
+/**
+.lh-1{
+    line-height: .75rem !important;
+}
+
+
+/** Les letter spacing **/
+/**
+.letter-spacing-caption{
+    letter-spacing: .125rem;
+}
+
+
+/** Les text-color **/
+/**
+.text-white-75{
+    color: rgba(255, 255, 255, .75);
+}
+
+.text-white
+{
+    color: #fff !important;
+}
+
+
+/** Font-family **/
+/**
+.font-family-secondary{
+    font-family: Arimo, sans-serif;
+}
+
+
+/** Text Align **/
+/**
+.text-center
+{
+    text-align: center !important;
+}
+
+
+/** Background-color (bg) **/
+/**
+.bg-transparent{
+    background-color: #212529;
+}
+
+
+/** bordures **/
+/**
+.border-0{
+    border: 0 !important;
+}
+
+**/
