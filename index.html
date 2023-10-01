@@ -15,9 +15,12 @@
             integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@100;500;700;900&display=swap" rel="stylesheet">
         
-        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Font Awesome (jeu d'icônes) -->
         <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
     </head>
@@ -43,6 +46,7 @@
                             <span class="navbar-text text-uppercase d-fex align-items-center px-md-3">
                                     <span class="text-white-50">call us today:</span> 
                                     <span class="text-white">+237 671 14 88 55</span>
+                                    <i class="material-icons fs-1 text-white">phone</i>
                             </span>
                         </nav>
                     </div>
@@ -102,23 +106,6 @@
                 </div>
             </div>
         </header>
-        <!--<section class="py-5 bg-light" style="min-height: auto;">
-            <div class="container">
-                <div class="d-flex flex-column mb-3 justify-content-center">
-                    <div class="p-2 fw-bold">
-                        <h1 class="text-white">Contractors in New York</h1>
-                    </div>
-                    <div class="p-2">
-                        <p class="text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br> 
-                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                        </p>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-5">
-                        <span class="text-uppercase">Get a free estimate</span>
-                    </a>
-                </div>
-            </div>
-        </section>-->
         <section class="hero hero-fullscreen jarallax hero-bg-ready" data-speed="0.2" style="min-height: auto;"
         data-jarallax-original-styles="min-height: calc(100vh - 140px)">
             <div class="hero-background">
@@ -126,15 +113,15 @@
             </div>
             
             <div class="container justify-content-center">
-                <div class="py-4 py-md-3 py-lg-5">
+                <div class="py-14 py-md-23 py-lg-25">
                 
-                    <div class="card border-0 bg-transparent my-5 py-2">
+                    <div class="card border-0 bg-transparent my-md-5 py-md-2">
                         <div class="card-body bg-transparent border-success">
                             <h1 class="card-title text-center fw-bolder">Contractor in Cameroon</h1>
-                            <p class="card-text text-center">Duis aute irure dolor in reprehenderit in volupdate 
+                            <p class="card-text text-center mt-4">Duis aute irure dolor in reprehenderit in volupdate 
                                 velit esse cillum<br>dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
                             <div class="d-flex flex-row justify-content-center">
-                                <a href="#" class="btn btn-lg btn-primary">Get a free estimate</a>
+                                <a href="#" class="btn btn-lg btn-primary mt-2">Get a free estimate</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +131,7 @@
                             <div class="card border-0 bg-transparent mb-10 mb-md-0">
                                 <div class="card-body p-0 text-center">
                                     <div class="card-icon text-white mb-6">
-                                        <i class="material-icons">location_on</i>
+                                        <i class="material-icons fs-2">location_on</i>
                                     </div>
                                     <div class="my-3 font-family-secondary text-uppercase text-white-50">
                                         Our location</div>
@@ -156,7 +143,7 @@
                             <div class="card border-0 bg-transparent mb-10 mb-md-0">
                                 <div class="card-body p-0 text-center">
                                    <div class="card-icon text-white mb-6">
-                                    <i class="material-icons">phone</i>
+                                    <i class="material-icons fs-2">phone</i>
                                     </div>
                                     <div class="my-3 font-family-secondary text-uppercase text-white-50">
                                         Contact phone</div>
@@ -168,7 +155,7 @@
                             <div class="card border-0 bg-transparent mb-10 mb-md-0">
                                 <div class="card-body p-0 text-center">
                                    <div class="card-icon text-white mb-6">
-                                    <i class="material-icons">verified_user</i>
+                                    <i class="material-icons fs-2">verified_user</i>
                                     </div>
                                     <div class="my-3 font-family-secondary text-uppercase text-white-50">
                                         License number</div>
@@ -281,7 +268,132 @@
                 </div>
             </div>
         </section>
-
+        <!-- Développement de la section "Services" -->
+        <section id="services" class="section bg-light pt-md-5 pb-md-5">
+            <div class="section-content container mt-md-5">
+                <div class="d-flex justify-content-center justify-content-md-between align-items-end">
+                    <div class="text-center text-md-left">
+                        <small class="fs-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+                            What we do the best</small>
+                        <h1>Services</h1>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <div class="btn-group">
+                            <div class="radio-buttons-group border-0" data-toggle="shuffle-grid" data-target="#services-grid">
+                                <button class="btn btn-light selected" data-value="all">
+                                    All
+                                </button>
+                                <button class="btn btn-light selected" data-value="construction">
+                                    Contruction
+                                </button>
+                                <button class="btn btn-light selected" data-value="design">
+                                    Design
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-18.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Kitchen Remodeling</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-19.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Bathroom Remodeling</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-20.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Flooring</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-21.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Roofing</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-22.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Windows & Doors</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card mb-3 border-0 rounder-0">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/image-23.jpg" class="img-fluid img-overlay" alt="photo">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body pt-3" style="margin-left: 5px;">
+                                        <h2 class="pt-2" style="font-weight: 600;">Painting</h2>
+                                        <p class="pt-2" style="color: rgb(63, 62, 62);">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4 mb-5 mt-lg-20 text-center">
+                    <a href="#" class="btn btn-lg btn-primary">Get a free estimate</a>
+                </div>
+            </div>
+        </section>
 
         <!-- Script JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 

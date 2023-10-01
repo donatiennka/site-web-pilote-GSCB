@@ -173,7 +173,7 @@ a
 
 
 /** Les paddings personnalisés **/
-/**
+
 @media (min-width: 992px){
     .pb-lg-25, .py-lg-25
     {
@@ -247,15 +247,53 @@ a
 }
 
 .card-title{
-    font-family: Arimo, Calibri, sans-serif;
+    font-family: Roboto, Arimo, sans-serif;
     font-size: 4.375rem;
     color: white;
 }
 
 .card-text{
     font-family: Arimo, Calibri, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     color: white;
+}
+
+/** shuffle-grid **//**
+
+@media (min-width: 992px){
+    .shuffle-grid-cols-lg-2 .shuffle-grid-item
+    {
+        
+       width: 50%;
+        
+    }
+}
+
+.shuffle-grid-cols-1 .shuffle-grid-item
+{
+    
+    width: 100%;
+    
+}
+
+.shuffle-grid-gap-14 .shuffle-grid-item
+{
+    
+    padding: .9375rem;
+    
+}
+
+.shuffle-grid-item
+{
+    
+    float: left;
+    
+}
+
+.h1, h1{
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 /** Les fw personnalisés **/
