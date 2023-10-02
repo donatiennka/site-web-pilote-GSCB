@@ -1,3 +1,13 @@
+/** section div container **/
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /** Header : Zone de navagation **/
 .navbar-short, #navbarNav
 {
@@ -46,8 +56,6 @@
 }
 
 
-
-
 /** Section de la partie centrale (corps) **/
 
 .font-family-secondary
@@ -61,8 +69,102 @@
     
 }
 
+/** Secttion "Why choose us" **/
+
+.section-content{
+    position: relative;
+    z-index: 20;
+}
+
+.sds-block-background.sds-block-background-right { right: 0; }
+.sds-block-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+    z-index: 5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px){
+    .sds-block{
+        padding: 3.125rem 0;
+    }
+}
+
+.sds-block{
+
+    display: flex;
+    position: relative;
+}
+
+.mt-14, .my-14{
+    margin-top: 1.875rem !important;
+}
+
+.sds-block-forground.sds-block-foreground-left{
+    margin-right: auto;
+}
+
+.sds-block-foreground{
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    width: 45%;
+    padding: 3.75rem 2.125rem 3.75rem 4.375rem;
+}
+
+@media (min-width: 1200px){
+    .text-xl-left{
+        text-align: left !important;
+    }
+}
+
+.mb-12, .my-12{
+    margin-bottom: 1.625rem !important;
+}
+
+.mb-6, .my-6{
+    margin-bottom: .875rem !important;
+}
+
+@media (min-width: 1200px){
+    .justify-content-xl-start{
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+}
+
+.material-icons{
+    vertical-align: middle;
+}
+
+.text-primary{
+    color: #3db36b !important;
+}
+
+.mr-1, .mx-1{
+    margin-right: 0.25rem !important;
+}
+
+@media (min-width: 576px){
+    .d-sm-inline-block{
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 1200px){
+    .mt-xl-20, .my-xl-20{
+        margin-top: 3.125rem !important;
+    }
+}
+
+
+
 /** la Balise body **/
-/**
+
 body
 {
     font-family: Roboto,sans-serif;
@@ -145,7 +247,7 @@ a
 
 
 /** Les margins personnalisées **/
-/**
+
 .mb-0, .my-0
 {
     margin-bottom: 0 !important;
@@ -258,7 +360,7 @@ a
     color: white;
 }
 
-/** shuffle-grid **//**
+/** shuffle-grid **/
 
 @media (min-width: 992px){
     .shuffle-grid-cols-lg-2 .shuffle-grid-item
@@ -292,33 +394,33 @@ a
 
 .h1, h1{
     font-size: 3.125rem;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
 }
 
 /** Les fw personnalisés **/
-/**
+
 .font-weight-bold{
     font-weight: 700 !important;
 }
 
 
 /** Les lh personnalisés **/
-/**
+
 .lh-1{
     line-height: .75rem !important;
 }
 
 
 /** Les letter spacing **/
-/**
+
 .letter-spacing-caption{
     letter-spacing: .125rem;
 }
 
 
 /** Les text-color **/
-/**
+
 .text-white-75{
     color: rgba(255, 255, 255, .75);
 }
@@ -330,7 +432,7 @@ a
 
 
 /** Font-family **/
-/**
+
 .font-family-secondary{
     font-family: Arimo, sans-serif;
 }
