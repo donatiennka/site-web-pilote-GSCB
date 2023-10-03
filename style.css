@@ -76,6 +76,13 @@
     z-index: 20;
 }
 
+.section{
+    position: relative;
+    overflow: hidden;
+    padding: 2.5rem 0;
+    background: #fff;
+}
+
 .sds-block-background.sds-block-background-right { right: 0; }
 .sds-block-background {
     position: absolute;
@@ -161,6 +168,24 @@
     }
 }
 
+@media (max-width: 1200px){
+    .sds-block-background{
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .sds-block-foreground{
+        width: auto;
+    }
+}
+
+@media (max-width: 1200px){
+    .sds-block-foreground{
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
 
 
 /** la Balise body **/
