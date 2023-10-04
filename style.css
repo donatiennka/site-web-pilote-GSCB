@@ -69,6 +69,11 @@
     
 }
 
+/**
+#ext01{
+    background: linear-gradient(108deg, rgba(0,0,0,0.5) 100%, rgba(0,0,0,0.5) 100%), url("img/workers04.jpg");
+}
+
 /** Secttion "Why choose us" **/
 
 .section-content{
@@ -200,6 +205,59 @@ body
     text-align: left;
 }
 
+/** Secttion "Our work" **/
+
+.card.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.card .card-bg-hover{
+    opacity: 0;
+    transform: scale(.75);
+    transition: all .2s ease-in-out;
+}
+
+.card-square .card-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+
+.card:hover .overlay{
+    opacity: 0.5;
+}
+
+/**
+.card-link-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1030;
+}
 
 /** La balise a **/
 /**
@@ -392,6 +450,15 @@ a
     {
         
        width: 50%;
+        
+    }
+}
+
+@media (min-width: 1200px){
+    .shuffle-grid-cols-xl-4 .shuffle-grid-item
+    {
+        
+       width: 25%;
         
     }
 }
