@@ -7,6 +7,36 @@
     margin-right: auto;
     margin-left: auto;
 }
+/**
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, 
+    .container-sm, .container-xl{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px){
+    .container, .container-lg, .container-md, 
+    .container-sm, .container-xl{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px){
+    .container, .container-lg, .container-md, 
+    .container-sm, .container-xl{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px){
+    .container, .container-lg, .container-md, 
+    .container-sm, .container-xl{
+        max-width: 540px;
+    }
+}**/
+
+
 
 /** Header : Zone de navagation **/
 .navbar-short, #navbarNav
@@ -114,6 +144,10 @@
 
 .mt-14, .my-14{
     margin-top: 1.875rem !important;
+}
+
+.mt-15, .my-15{
+    margin-top: 2rem;
 }
 
 .sds-block-forground.sds-block-foreground-left{
@@ -247,6 +281,35 @@ body
 
 .card:hover .overlay{
     opacity: 0.5;
+}
+
+/** Section "Testimonials" **/
+
+.star-rating{
+    color: #fdb813;
+    display: inline-flex;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 1200px){
+.card-slider-services .card-slider-item
+    {
+        width: 445px;
+    }
+}
+/**
+.btn-light.disabled, .btn-light:disabled
+{
+    background: 0 0;
+    opacity: 1;
+    color: rgba(0, 0, 0, .2);
+}**/
+
+.btn-square{
+    padding: 0;
+    line-height: 3rem;
+    height: 3.125rem;
+    width: 3.125rem;
 }
 
 /**

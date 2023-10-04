@@ -567,45 +567,128 @@
                     <div class="d-none d-sm-block">
                         <div class="btn-group">
                             <button class="btn btn-light btn-square disabled" type="button" data-toggle="card-slider"
-                            data-target="#testimonials-slider" data-action="preSlide" disabled="">
+                            data-target="#testimonials-slider" data-action="prevSlide" disabled="">
                                 <i class="material-icons">arrow_left</i>
                             </button>
                             <button class="btn btn-light btn-square disabled" type="button" data-toggle="card-slider"
-                            data-target="#testimonials-slider" data-action="nextSlide" disabled="">
+                            data-target="#testimonials-slider" data-action="nextSlide">
                                 <i class="material-icons">arrow_right</i>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="card py-4 rounded-0" style="width: 25rem; padding-left: 2rem; border-left: 4px solid #3db36b;">
-                            <div class="card-body py-17 px-10 d-flex flex-column ">
-                                <div class="card-icon mb-6 text-start d-flex flex-row">
-                                    <img class="rounded-circle" src="images/yelp.svg" alt="yelp icon" width="45">
-                                    <div class="d-flex flex-column" style="margin-left: 1.5rem;">
-                                        <span class="font-weight-medium fs-5 lh-1 mb-4">Pamela P.</span>
-                                        <span class="" style="color: #b4acac; font: 0.95em sans-serif; line-height: 1px;">
-                                            Bathroom remodeling</span>
+                <div id="testimonials-slider" class="card-slider card-slider-viewport card-slider-services mt-15 flickity-enabled
+                is-draggable" style="margin-left: -213px; margin-right: -213px;" tabindex="0">
+                    <div class="flickity-viewport" style="height: 336.6px; touch-action: pan-y;">
+                        <div class="flickity-slider" style="left: 0px; transform: translateX(0px);">
+                            <article class="card-slider-item is-selected" style="padding-left: 213px; position: absolute; left: 0px;">
+                                <div class="card py-4 rounded-0 card-accent-left" data-mh="testimonials-slider" style="width: 28rem; 
+                                height: 336.6px; padding-left: 2rem; border-left: 4px solid #3db36b;">
+                                    <div class="card-body py-17 px-10 d-flex flex-column ">
+                                        <div class="card-icon mb-6 text-start d-flex flex-row">
+                                            <img class="rounded-circle" src="images/yelp.svg" alt="yelp icon" width="45">
+                                            <div class="d-flex flex-column" style="margin-left: 1.5rem;">
+                                                <span class="font-weight-medium fs-5 lh-1 mb-4">Madeleine L.</span>
+                                                <span class="" style="color: #b4acac; font: 0.95em sans-serif; line-height: 1px;">
+                                                    Bathroom remodeling</span>
+                                            </div>
+                                        </div>
+                                        <p class="text-start pt-3" style="color: rgb(73, 69, 69); font: 1em sans-serif; line-height: 1.5rem;">
+                                            "Rhoncus netus et tincidunt nunc pharetra rutrum natoque, libero justo enim magnis sapien finibus quisque dis,
+                                            habitant quam ipsum luctus nisi posuere."
+                                        </p>
+                                        <div class="star-rating mt-auto">
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star_half</i>
+                                        </div>
                                     </div>
-                                    
-                                </div>
-                                <p class="text-start pt-3" style="color: rgb(73, 69, 69); font: 1em sans-serif; line-height: 1.5rem;">
-                                   "Rhoncus netus et tincidunt nunc pharetra rutrum natoque, libero justo enim magnis sapien finibus quisque dis,
-                                   habitant quam ipsum luctus nisi posuere."
-                                </p>
-                                <div class="star-rating text-start pt-1" style="color: #fdb813; font-size: 1.25rem;">
-                                    <i class="material-icons">star</i>
-                                    <i class="material-icons">star</i>
-                                    <i class="material-icons">star</i>
-                                    <i class="material-icons">star</i>
-                                    <i class="material-icons">star_half</i>
-                                </div>
-                            </div>
+                                </div>                                    
+                            </article>
+                            <article class="card-slider-item is-selected" style="position: absolute; left: 688px;">
+                                <div class="card py-4 rounded-0 card-accent-left" data-mh="testimonials-slider" style="width: 28rem; 
+                                height: 336.6px; padding-left: 2rem; border-left: 4px solid #3db36b;">
+                                    <div class="card-body py-17 px-10 d-flex flex-column ">
+                                        <div class="card-icon mb-6 text-start d-flex flex-row">
+                                            <img class="rounded-circle" src="images/houzz.svg" alt="houzz icon" width="45">
+                                            <div class="d-flex flex-column" style="margin-left: 1.5rem;">
+                                                <span class="font-weight-medium fs-5 lh-1 mb-4">Madom M.</span>
+                                                <span class="" style="color: #b4acac; font: 0.95em sans-serif; line-height: 1px;">
+                                                    Kitchen remodeling</span>
+                                            </div>
+                                        </div>
+                                        <p class="text-start pt-3" style="color: rgb(73, 69, 69); font: 1em sans-serif; line-height: 1.5rem;">
+                                            "Rhoncus netus et tincidunt nunc pharetra rutrum natoque, libero justo enim magnis sapien finibus quisque dis,
+                                            habitant quam ipsum luctus nisi posuere."
+                                        </p>
+                                        <div class="star-rating mt-auto">
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </article>
+                            <article class="card-slider-item is-selected" style="position: absolute; left: 1163px;" aria-hidden="true">
+                                <div class="card py-4 rounded-0 card-accent-left" data-mh="testimonials-slider" style="width: 28rem; 
+                                height: 336.6px; padding-left: 2rem; border-left: 4px solid #3db36b;">
+                                    <div class="card-body py-17 px-10 d-flex flex-column ">
+                                        <div class="card-icon mb-6 text-start d-flex flex-row">
+                                            <img class="rounded-circle" src="images/fb.svg" alt="facebook icon" width="45">
+                                            <div class="d-flex flex-column" style="margin-left: 1.5rem;">
+                                                <span class="font-weight-medium fs-5 lh-1 mb-4">Albert H.</span>
+                                                <span class="" style="color: #b4acac; font: 0.95em sans-serif; line-height: 1px;">
+                                                    Roofing</span>
+                                            </div>
+                                        </div>
+                                        <p class="text-start pt-3" style="color: rgb(73, 69, 69); font: 1em sans-serif; line-height: 1.5rem;">
+                                            "Rhoncus netus et tincidunt nunc pharetra rutrum natoque, libero justo enim magnis sapien finibus quisque dis,
+                                            habitant quam ipsum luctus nisi posuere."
+                                        </p>
+                                        <div class="star-rating mt-auto">
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </article>
+                            <article class="card-slider-item is-selected" style="padding-right: 213px; position: absolute; left: 1638px;"
+                            aria-hidden="true">
+                                <div class="card py-4 rounded-0 card-accent-left" data-mh="testimonials-slider" style="width: 28rem; 
+                                height: 336.6px; padding-left: 2rem; border-left: 4px solid #3db36b;">
+                                    <div class="card-body py-17 px-10 d-flex flex-column ">
+                                        <div class="card-icon mb-6 text-start d-flex flex-row">
+                                            <img class="rounded-circle" src="images/g.svg" alt="google icon" width="45">
+                                            <div class="d-flex flex-column" style="margin-left: 1.5rem;">
+                                                <span class="font-weight-medium fs-5 lh-1 mb-4">Atangana O.</span>
+                                                <span class="" style="color: #b4acac; font: 0.95em sans-serif; line-height: 1px;">
+                                                    Painting</span>
+                                            </div>
+                                        </div>
+                                        <p class="text-start pt-3" style="color: rgb(73, 69, 69); font: 1em sans-serif; line-height: 1.5rem;">
+                                            "Rhoncus netus et tincidunt nunc pharetra rutrum natoque, libero justo enim magnis sapien finibus quisque dis,
+                                            habitant quam ipsum luctus nisi posuere."
+                                        </p>
+                                        <div class="star-rating mt-auto">
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star</i>
+                                            <i class="material-icons">star_half</i>
+                                            <i class="material-icons">star_border</i>
+                                        </div>
+                                    </div>
+                                </div>     
+                            </article>
                         </div>
                     </div>
-                    
-                </div>
+                </div>  
             </div>
         </section>
 
