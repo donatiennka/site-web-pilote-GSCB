@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Roboto:300i,400,400i,500,700|Material+Icons&display=swap);
+
 /** section div container **/
 
 .container{
@@ -386,6 +389,62 @@ body
     color: #adb5bd;
     line-height: 1;
   }
+
+  .text-body {
+    color:#212529!important
+  }
+  .text-muted {
+    color:#9b9b9b!important
+  }
+
+
+/** google Map **/
+
+.map-area{
+    width: 100%;
+    height: 365px;
+    background: #fff;
+        background: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.map-area iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+}
+/**
+.row[class*=vertical-divider-] {
+    overflow-x:hidden;
+    position:relative;
+  }
+  .row[class*=vertical-divider-]>[class*=col]:nth-child(n+2):after {
+    content:'';
+    background-color:var(--vertical-divider-color);
+    position:absolute;
+    top:0;
+    bottom:0
+  }
+  @media (max-width:720px) {
+    .row[class*=vertical-divider-]>[class*=col]:nth-child(n+2):after {
+      width:100%;
+      height:.0625rem;
+      left:0;
+      top:-.25rem
+    }
+  }
+  @media (min-width:768px) {
+    .row[class*=vertical-divider-]>[class*=col]:nth-child(n+2):after {
+      width:.0625rem;
+      height:auto;
+      left:-.0625rem
+    }
+  }
+
+.row.vertical-divider-danger {
+  --vertical-divider-color:#dc3545
+}  
 
 /**
 .form-check-label a{
