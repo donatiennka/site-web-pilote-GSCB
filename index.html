@@ -283,10 +283,10 @@
                                 <button class="btn btn-light selected" data-value="all">
                                     All
                                 </button>
-                                <button class="btn btn-light selected" data-value="construction">
+                                <button class="btn btn-light" data-value="construction">
                                     Contruction
                                 </button>
-                                <button class="btn btn-light selected" data-value="design">
+                                <button class="btn btn-light" data-value="design">
                                     Design
                                 </button>
                             </div>
@@ -394,6 +394,7 @@
                 </div>
             </div>
         </section>
+        <!-- Développement de la section "Why choose us" -->
         <section id="why-choose-us" class="section pt-md-5 pb-md-5">
             <div class="section-content container mt-md-5">
                 <div class="text-center text-md-left">
@@ -402,31 +403,156 @@
                     <h1>Why Choose Us</h1>
                 </div>
             </div>
-            <div class="sds-block-background sds-block-background-right" style="background-image: url('images/duplexbyrene.jpg');"></div>
-            <div class="sds-block-foreground sds-block-foreground-left text-center text-xl-left">
-                <ul class="list-unstyled mb-12">
-                    <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
-                        <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
-                        8 years of finishing projects on time and on budget
-                    </li>
-                    <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
-                        <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
-                        Easy to understand contracts
-                    </li>
-                    <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
-                        <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
-                        Knowledgeable project managers who help along the way
-                    </li>
-                    <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
-                        <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
-                        Modern design trends using high-quality materials
-                    </li>
-                    <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
-                        <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
-                        Long list of satisfied Cameroon clients
-                    </li>
-                </ul>
-                <a href="#" class="btn btn-lg btn-primary">Get a free estimate</a>
+            <div class="sds-block mt-14 mt-xl-20">
+                <div class="sds-block-background sds-block-background-right" style="background-image: url('images/enuelwood01.jpg');"></div>
+                <div class="sds-block-foreground sds-block-foreground-left text-center text-xl-left">
+                    <ul class="list-unstyled mb-12">
+                        <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
+                            <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
+                            8 years of finishing projects on time and on budget
+                        </li>
+                        <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
+                            <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
+                            Easy to understand contracts
+                        </li>
+                        <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
+                            <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
+                            Knowledgeable project managers who help along the way
+                        </li>
+                        <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
+                            <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
+                            Modern design trends using high-quality materials
+                        </li>
+                        <li class="mb-6 d-flex align-items-center justify-content-center justify-content-xl-start">
+                            <i class="material-icons text-primary mr-1 d-none d-sm-inline-block">check_circle</i>
+                            Long list of satisfied Cameroon clients
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-lg btn-primary">Get a free estimate</a>
+                </div>
+            </div>
+        </section>
+        <!-- Développement de la section "Our works" -->
+        <section id="our-work" class="section bg-light">
+            <div class="section-content text-center container">
+                <div class="d-flex justify-content-center justify-content-md-between align-items-end">
+                    <div class="text-center text-md left">
+                        <small class="fs-1 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+                            Latest projects gallery</small>
+                        <h1>Our Work</h1>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <div class="btn-group">
+                            <div class="radio-buttons-group border-0" data-toggle="shuffle-grid" data-target="#projects-grid">
+                                <button class="btn btn-light selected" data-value="all">
+                                    All
+                                </button>
+                                <button class="btn btn-light" data-value="construction">
+                                    Contruction
+                                </button>
+                                <button class="btn btn-light" data-value="design">
+                                    Design
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shuffle-grid shuffle-grid-gap-14 shuffle-grid-cols-1 shuffle-grid-cols-md-2 shuffle-grid-cols-xl-4 
+                mt-14 shuffle" id="projetcts-grid" style="position: relative; overflow: hidden; height: 570px; transition: height 250ms 
+                cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+                    <div class="row">
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-43.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-41.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-42.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-39.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-25.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-30.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-28.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                        <div class="col12 col-md-3">
+                            <div class="card card-square bg-transparent border-0">
+                                <img class="card-img" src="images/image-38.JPG" alt="">
+                                <div class="overlay">
+                                    <div class="card-body card-body-hover text-white d-flex align-items-center justify-content-center">
+                                        <i class="material-icons fs-2">zoom_in</i>
+                                        <a href="#" class="card-link-overlay"></a>
+                                    </div>
+                                </div>    
+                            </div>    
+                        </div>
+                    </div>
+                </div>    
             </div>
         </section>
 
